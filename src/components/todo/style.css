@@ -1,0 +1,40 @@
+.todo {
+  padding: 5px;
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 15px;
+}
+
+.open {
+  font-weight: bold;
+}
+.done {
+  text-decoration: line-through; 
+  color: gray; 
+}
+
+.control {
+  padding: 5px;
+  font-size: .8em;
+}
+.control a {
+  margin: 0 5px;
+}
+
+.categories {
+  font-size: .8em;
+  padding: 5px 0;
+  color: #484848;
+  font-style: italic;
+}
+
+.categories .form-category {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.datetime {
+  font-size: 12px;
+  color: #A4A9AB;
+  font-style: italic;
+  text-align: right;
+}
